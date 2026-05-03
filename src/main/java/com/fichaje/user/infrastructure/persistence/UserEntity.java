@@ -1,4 +1,4 @@
-package com.fichaje.user.infrastructure.persistance;
+package com.fichaje.user.infrastructure.persistence;
 
 
 import jakarta.persistence.*;
@@ -24,7 +24,7 @@ public class UserEntity {
     @Column(nullable = false)
     private String rol;
 
-    
+
     @Column(nullable = false)
     private String sector;
 
